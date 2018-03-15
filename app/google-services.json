@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558911093504",
+    "firebase_url": "https://lazeez-bf057.firebaseio.com",
+    "project_id": "lazeez-bf057",
+    "storage_bucket": "lazeez-bf057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558911093504:android:a57dbc19ad1c0ec3",
+        "android_client_info": {
+          "package_name": "com.rootonelabs.vicky.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558911093504-e38d177c4chfg3ealjh36id2600kjte0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rootonelabs.vicky.foodapp",
+            "certificate_hash": "9fa2dec2c4e328882f353575e5a6c89f1488f118"
+          }
+        },
+        {
+          "client_id": "558911093504-2bvngqa7qmall12f2qrgkdajfgldf9ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB55FwGVqXAt2RSV5ZQgik9G3_6AXeM0EA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558911093504-2bvngqa7qmall12f2qrgkdajfgldf9ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
