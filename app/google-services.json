@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:558911093504:android:a57dbc19ad1c0ec3",
+        "mobilesdk_app_id": "1:558911093504:android:bcc199b1b59723a9",
         "android_client_info": {
-          "package_name": "com.rootonelabs.vicky.foodapp"
+          "package_name": "com.rootonelabs.vicky.lazeez"
         }
       },
       "oauth_client": [
         {
-          "client_id": "558911093504-e38d177c4chfg3ealjh36id2600kjte0.apps.googleusercontent.com",
+          "client_id": "558911093504-hl8p465j9vmotqfcl3slenlol1fc3ksu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rootonelabs.vicky.foodapp",
+            "package_name": "com.rootonelabs.vicky.lazeez",
             "certificate_hash": "9fa2dec2c4e328882f353575e5a6c89f1488f118"
           }
         },

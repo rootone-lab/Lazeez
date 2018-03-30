@@ -1,4 +1,4 @@
-package com.rootonelabs.vicky.foodapp;
+package com.rootonelabs.vicky.lazeez;
 
 import org.junit.Test;
 
