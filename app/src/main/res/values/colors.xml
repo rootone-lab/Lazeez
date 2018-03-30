@@ -6,4 +6,5 @@
 
     <color name="btnSignUp">#39796B</color>
     <color name="btnSignActive">#A9D440</color>
+    <color name="hintColor">#263238</color>
 </resources>
