@@ -1,6 +1,7 @@
 package com.rootonelabs.vicky.lazeez;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
+import com.rootonelabs.vicky.lazeez.Common.Common;
 import com.rootonelabs.vicky.lazeez.Model.User;
 
 public class SignIn extends AppCompatActivity {
@@ -51,6 +53,11 @@ public class SignIn extends AppCompatActivity {
                             User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
                             if(user.getpassword().equals(edtPassword.getText().toString()))
                             {
+                                Intent homeIntent = new Intent(SignIn.this, Home.class);
+                                Common.currentUser = user;
+                                startActivity(homeIntent);
+                                finish();
+
                                 Toast.makeText(SignIn.this, "Sign In Successfully", Toast.LENGTH_SHORT).show();
                             }else
                             {
