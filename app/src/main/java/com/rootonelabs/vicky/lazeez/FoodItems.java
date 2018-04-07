@@ -1,7 +1,9 @@
 package com.rootonelabs.vicky.lazeez;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -40,7 +42,7 @@ public class FoodItems extends AppCompatActivity{
 
         recyclerView = (RecyclerView)findViewById(R.id.recycler_food);
         recyclerView.setHasFixedSize(true);
-        layoutManager = new LinearLayoutManager(this);
+        layoutManager = new GridLayoutManager(this,2);
         recyclerView.setLayoutManager(layoutManager);
 
         //Recieve Intent
@@ -67,18 +69,25 @@ public class FoodItems extends AppCompatActivity{
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(FoodItems.this, "Name: " + local.getName() + "\n" +
+                        /*Toast.makeText(FoodItems.this, "Name: " + local.getName() + "\n" +
                                 "Description: " + local.getDescription() + "\n" +
                                 "Price: ₹" + local.getPrice() + "\n" +
                                  "Discount: ₹" + local.getDiscount()
                                 , Toast.LENGTH_SHORT).show();
+                        */
+
+                        //Start Activity
+                        Intent foodDetails = new Intent(FoodItems.this, FoodDetails.class);
+                        foodDetails.putExtra("FoodId", adapter.getRef(position).getKey());
+                        startActivity(foodDetails);
+
+
                     }
                 });
             }
         };
 
         //Set Adapter
-
 
         recyclerView.setAdapter(adapter);
     }
