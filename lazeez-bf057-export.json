@@ -1,0 +1,62 @@
+{
+  "Category" : {
+    "01" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-fingerfoods2.jpg",
+      "Name" : "FINGER  FOODS"
+    },
+    "02" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-westernsoup1.jpg",
+      "Name" : "WESTERN  SOUPS"
+    },
+    "03" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-snacks.jpg",
+      "Name" : "SNACKS"
+    },
+    "04" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-sandwich.jpg",
+      "Name" : "SANWICHES"
+    },
+    "05" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-pizza.jpg",
+      "Name" : "PIZZA"
+    },
+    "06" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-pasta1.jpg",
+      "Name" : "PASTA"
+    },
+    "07" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-chicken.jpg",
+      "Name" : "CHICKEN"
+    },
+    "08" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-fish.jpg",
+      "Name" : "FISH"
+    },
+    "09" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-vegetarian.jpg",
+      "Name" : "CHINESE"
+    },
+    "010" : {
+      "Image" : "http://medifoods.my/wp-content/uploads/2015/03/cover-menu-easternsoup.jpg",
+      "Name" : "EASTERN  SOUPS"
+    }
+  },
+  "User" : {
+    "1234" : {
+      "name" : "admin",
+      "password" : "pass"
+    },
+    "1234567890" : {
+      "name" : "Kavya ",
+      "password" : "heje"
+    },
+    "8585967583" : {
+      "name" : "Vikas Tomar",
+      "password" : "lopudra"
+    },
+    "9898111111" : {
+      "name" : "Johny Dep",
+      "password" : "pass"
+    }
+  }
+}
