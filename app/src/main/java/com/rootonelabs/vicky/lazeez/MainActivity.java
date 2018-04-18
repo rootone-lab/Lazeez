@@ -1,6 +1,7 @@
 package com.rootonelabs.vicky.lazeez;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,10 +10,12 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.lang.reflect.Type;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnSignIn, btnSignUp;
-    TextView txtSlogan;
+    TextView txtSlogan, appName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnSignIn = (Button)findViewById(R.id.btnSignIn);
         btnSignUp = (Button)findViewById(R.id.btnSignUp);
+
 
         txtSlogan = (TextView)findViewById(R.id.txtSlogan);
 

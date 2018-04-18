@@ -9,15 +9,23 @@ public class User {
 
     private String name;
     private String password;
+    private String Phone;
 
     public User() {
     }
 
-    public User(String Pname, String Ppassword) {
+    public User(String name, String password) {
+        this.name = name;
+        this.password = password;
 
+    }
 
-        name = Pname;
-        password = Ppassword;
+    public String getPhone() {
+        return Phone;
+    }
+
+    public void setPhone(String phone) {
+        Phone = phone;
     }
 
     public String setname(String Pname) {
